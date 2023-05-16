@@ -3,6 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title></title>
+    <script src="JavaScript/jquery-3.6.4.slim.js" charset="utf-8"></script>
+    <script src="js.js" charset="utf-8"></script>
     <style media="screen">
       body{
         height: 1080px;
@@ -35,11 +37,11 @@
         top: 14vw;
         left: 12vw;
         background-color: #EAB211;
-        animation: a3 2s linear infinite;
+        animation: a3 3.5s linear infinite;
       }
       @keyframes a3 {
         0% {top: 14vw; height: 25vw;}
-        50% {top: 25vw; height: 20vw;}
+        50% {top: 30vw; height: 15vw;}
       }
       div:nth-of-type(3){
         width: 4vw;
@@ -54,6 +56,14 @@
         top: 1vw;
         left: 32vw;
         background-color: #EAB211;
+        animation: ho1 3s infinite;
+      }
+      .ho1:hover {
+        animation-play-state: running;
+      }
+      @keyframes ho1 {
+        0% {height: 59vw; top: 1vw;}
+        50% {height: 20vw; top: 28vw;}
       }
       div:nth-of-type(5){
         width: 3vw;
@@ -61,7 +71,6 @@
         top: 16vw;
         left: 35vw;
         transform: rotate(35deg);
-        background-color: #A20E0C;
       }
       div:nth-of-type(6){
         width: 3vw;
@@ -142,11 +151,14 @@
         top: 8vw;
         left: 61vw;
         background-color: #EAB211;
-        animation: a4 2s linear infinite;
+        animation: a4 2s infinite;
       }
       @keyframes a4 {
         0% {width: 20vw; left: 61vw;}
         50% {width: 10vw; left: 65vw;}
+      }
+      .red{
+        background-color: #A20E0C;
       }
       .blue{
         background-color: #062B45;
@@ -159,7 +171,7 @@
     <div class=""></div>
     <div class=""></div>
     <div class=""></div>
-    <div class=""></div>
+    <div class="d1 red"></div>
     <div class=""></div>
     <div class=""></div>
     <div class=""></div>

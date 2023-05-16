@@ -1,5 +1,6 @@
 $(document).ready(function(){
-  $(".").click(function() {
- 		 $(".").addClass("");
+  $(".d1").click(function() {
+    $(".d1").removeClass("red");
+ 		$(".d1").addClass("blue");
    }
 }
